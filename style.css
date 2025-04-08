@@ -1,0 +1,57 @@
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #f8f8f8;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px #cacaca25;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+  }
+.logo-img {
+  width: 150px;
+}
+
+.btn {
+  background-color: #a31c06;
+  color: white;
+}
+.nav-menu li {
+  align-content: center;
+}
+.nav-menu li :active {
+  background-color: #a31c06;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.nav-menu li :hover {
+  background-color: #a31c06;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.hero,
+.about, .new, .contact {
+  background-image: url("./gallery/background-img.svg");
+  width: 100%;
+  min-width: 100%;
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  background: #67261B;
+  width: 100%;
+  min-width: 100%;
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: center;
+}
+
